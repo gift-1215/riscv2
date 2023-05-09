@@ -1,3 +1,6 @@
+"addi %[arith_cnt],%[arith_cnt],1\n\t"
+
+/*
 "li t2,16\n\t"
 "addi %[arith_cnt], %[arith_cnt], 1\n\t"
 "vvaddint32:\n\t"
@@ -24,3 +27,5 @@
 "addi %[arith_cnt], %[arith_cnt], 1\n\t"
  "bnez t2, vvaddint32\n\t" // Loop back
 "addi %[arith_cnt], %[arith_cnt], 1\n\t"
+*/
+
