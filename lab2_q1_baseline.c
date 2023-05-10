@@ -1,6 +1,6 @@
 
-"addi %[h],%[h],4\n\t"
-/*
+//"addi %[h],%[h],4\n\t"
+
 "addi %7,%0,16\n\t"
 "loop1:\n\t"
 "lw %5,0(%[h])\n\t"
@@ -12,7 +12,7 @@
 "addi %[y],%[y],4\n\t"
 "addi %7,%7,-1\n\t"
 "bnez %7,loop1\n\t"
-*/
+
 /*
 "li t2,16\n\t"
 "addi %[arith_cnt], %[arith_cnt], 1\n\t"
