@@ -1,6 +1,6 @@
 MAKEFLAGS += --no-print-directory
 
-PK_PATH = /opt/riscv/riscv64-unknown-linux-gnu/bin
+PK_PATH = /opt/riscv/riscv64-unknown-linux-gnu/bin/pk
 TEST_DATA = 0
 
 score:
